@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 import java.util.Stack;
 
@@ -11,7 +10,7 @@ public class Main {
         int n = sc.nextInt(); // 입력받을 정수의 개수
         int result = 0;
 
-        Stack<Integer> s = new Stack<Integer>();
+        Stack<Integer> s = new Stack<>();
 
         for (int i = 0; i < n; i++) {
             int data = sc.nextInt(); //반복문 돌 때마다 입력받음
